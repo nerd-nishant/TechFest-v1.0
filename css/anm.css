@@ -96,6 +96,12 @@ a.se:hover {
 }
 
 /* Media Queries for responsiveness */
+@media (max-width: 2500px) {
+
+    .b{
+        font-size: 0.9rem;
+    }
+}
 @media (max-width: 1500px) {
     .card-title {
         font-size: 1.5vw;
@@ -108,6 +114,7 @@ a.se:hover {
     .card-img-overlay .btn {
         width: 45%;
     }
+    
 }
 @media (max-width: 1200px) {
     .card-title {
