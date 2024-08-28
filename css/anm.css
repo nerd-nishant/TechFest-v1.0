@@ -1,0 +1,137 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2%;
+    row-gap: 40px;
+    padding: 20px;
+}
+
+.card1 {
+    position: relative;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1.5rem;
+    overflow: hidden; 
+}
+
+.card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.7);
+}
+
+.card-img {
+    border-radius: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+
+.card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 1.5rem;
+}
+
+
+.help {
+    all: unset;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.help:visited {
+    color: #007bff;
+}
+
+.help:hover {
+    text-decoration: underline;
+    color: #007bff;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.card-img-overlay .btn {
+    margin: 10px;
+    font-weight: 500;
+    width: calc(50% - 20px); 
+}
+
+.b:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.7);
+}
+
+.card-title {
+    font-size: 1vw;
+    color: rgb(248, 167, 248);
+    text-shadow: 2px rgb(255, 255, 255);
+}
+
+.card-img-overlay > p {
+    font-size: 0.7vw;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1500px) {
+    .card-title {
+        font-size: 1.5vw;
+    }
+    
+    .card-img-overlay > p {
+        font-size: 1vw;
+    }
+    
+    .card-img-overlay .btn {
+        width: 45%;
+    }
+}
+@media (max-width: 1200px) {
+    .card-title {
+        font-size: 2vw;
+    }
+    
+    .card-img-overlay > p {
+        font-size: 1.5vw;
+    }
+    
+    .card-img-overlay .btn {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 4vw;
+    }
+    
+    .card-img-overlay > p {
+        font-size: 2.5vw;
+    }
+    
+    .card-img-overlay .btn {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-title {
+        font-size: 4vw;
+    }
+    
+    .card-img-overlay > p {
+        font-size: 2.5vw;
+    }
+    
+    .card-img-overlay .btn {
+        width: 80%;
+        margin: 5px 0;
+    }
+}

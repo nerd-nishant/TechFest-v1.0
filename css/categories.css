@@ -1,0 +1,53 @@
+.scholar-single-section {
+    background-color: #00163f; /* Add this line to change the background color to blue */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff; /* Add this line to change the text color to white */
+}
+
+.scholar-single-section .section-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scholar-single-section .scholar-left,
+.scholar-single-section .scholar-right {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 0;
+    margin-left: 0;
+    color: #ffffff; /* Add this line to change the text color to white */
+}
+
+.scholar-single-section .scholar-single-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.scholar-single-section .scholar-single-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.scholar-single-section .scholar-single-thumb img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.scholar-single-section .scholar-single-thumb:hover img {
+    transform: scale;
+}
+
+/* Add the following code to make "Robo Fight" a headline with a bold font */
+
+.scholar-single-section .headline {
+    font-size: 36px; /* You can adjust the font size as needed */
+    font-weight: bold; /* This will make the font bold */
+    text-align: center; /* This will center the headline */
+    margin-bottom: 20px; /* This will add some space below the headline */
+}
+
+/* You'll need to add the following HTML code to your HTML file: */
+
