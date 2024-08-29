@@ -99,6 +99,13 @@ a.se:hover {
     height: auto;
 }
 
+.klink:hover{
+    color: #ffffff;
+    box-shadow:none;
+    background-color: purple;
+    font-size: large;
+}
+
 /* Media Queries for responsiveness */
 @media (max-width: 2500px) {
 
