@@ -5084,4 +5084,7 @@ footer .footer-bottom .footer-bottom-content p a {
   border: solid #1559d7;
   border-radius: 3%;
 }
- 
+.speakers-section .fixtures-image {
+  display: flex;
+  justify-content: middle;
+}

@@ -94,6 +94,10 @@ a.se:hover {
     box-shadow: none;
     font-size: 0.8rem;
 }
+#ieee{
+    width: 20vw;
+    height: auto;
+}
 
 /* Media Queries for responsiveness */
 @media (max-width: 2500px) {
