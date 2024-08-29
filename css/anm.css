@@ -16,7 +16,7 @@
 
 .card1:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 16px rgb(105, 115, 255);
 }
 
 .card-img {
@@ -77,8 +77,31 @@
 .card-img-overlay > p {
     font-size: 0.7vw;
 }
+.sout{
+    margin-top:20px!important;
+    font-size: 0.8rem;
+}
+a.se{
+    color: grey;
+    text-decoration: none !important;
+    font-size: 0.7rem;
+}
+a.se:hover {
+    color: rgb(252, 67, 53);
+    text-decoration: none;
+    background: none; 
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.8rem;
+}
 
 /* Media Queries for responsiveness */
+@media (max-width: 2500px) {
+
+    .b{
+        font-size: 0.9rem;
+    }
+}
 @media (max-width: 1500px) {
     .card-title {
         font-size: 1.5vw;
@@ -91,6 +114,7 @@
     .card-img-overlay .btn {
         width: 45%;
     }
+    
 }
 @media (max-width: 1200px) {
     .card-title {
@@ -135,3 +159,4 @@
         margin: 5px 0;
     }
 }
+

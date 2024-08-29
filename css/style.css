@@ -2333,7 +2333,7 @@ ul li {
   z-index: 999;
 }
 .header-section.header-fixed .header-bottom {
-  background: #00163f;
+  background: #00102e;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
